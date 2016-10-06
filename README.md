@@ -8,8 +8,13 @@ a python caption generator using google image best guess
 	$ sudo pip --user install requirements.txt
 
 ## Get it to work
+
 	INITIALIZATION:
-    ggs = Goguess(inputDir="ABS_PATH_TO_IMAGES_DIR")
-    
+	```python
+		ggs = Goguess(inputDir="ABS_PATH_TO_IMAGES_DIR")
+	```
+	
 	RUN:
+	```python
 		ggs.go()
+	```
