@@ -9,12 +9,7 @@ a python caption generator using google image best guess
 
 ## Get it to work
 
-	INITIALIZATION:
-	```python
-		ggs = Goguess(inputDir="ABS_PATH_TO_IMAGES_DIR")
-	```
-	
-	RUN:
-	```python
-		ggs.go()
-	```
+```python
+ggs = Goguess(inputDir="ABS_PATH_TO_IMAGES_DIR")
+ggs.go()
+```
